@@ -1,70 +1,29 @@
-# Getting Started with Create React App
+# Overview
+Up until the point of this project I have had no cloud database experience. The limited database I had was just prior to this project where I learned SQL to build a simple local database. With this project I learned how to connect Firebase to a Create React App using Bootstrap for CSS. I also learned how to use Routes to move between pages.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This software has a very simple frontend view that provides the purpose of showcasing the backend processes. The first page an unregistered user will see is the log in page where they can enter a username and password. If they don't have an account, they can sign up by clicking the link at the bottom. If they forgot their password, they can click the forgot password link to send an email to the respective email with password reset instructions. Firebase handles majority of the backend. This project helped me understand how to connect the frontend to the backend but not necessarily how to build the backend infrastructure.
 
-## Available Scripts
+[Software Demo Video](https://youtu.be/_LL1m85qmyE)
 
-In the project directory, you can run:
+# Cloud Database
 
-### `npm start`
+The database I am using is Google Firebase. I utilized the authentication feature so that user accounts could be created and authenticated when logging in to the web application.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Development Environment
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+I used Visual Studio Code to write the code, Firebase to host the accounts and authentication methods, Create React to build the framework of the app, and Bootstrap as my CSS framework.
 
-### `npm test`
+# Useful Websites
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+{Make a list of websites that you found helpful in this project}
 
-### `npm run build`
+- [Google Firestore](https://firebase.google.com/docs/firestore)
+- [Google Authentication](https://cloud.google.com/docs/authentication/client-libraries)
+- [Web Dev Simplified](https://www.youtube.com/watch?v=PKwu15ldZ7k&t=4s&ab_channel=WebDevSimplified)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Future Work
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+In teh future, I hope to actually get the Google Firestore portion of the Firebase software to associate specific data to their respective users.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Implement Firestore datbase.
+- Add pages to handle more than just update the user profile.
